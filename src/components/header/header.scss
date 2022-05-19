@@ -1,0 +1,103 @@
+.header {
+    margin-top: 26px;
+    margin-left: 63px;
+    width: 1785px;
+    height: 97px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__wrapper-logo-nav {
+        width: 867px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav {
+        //margin-left: 52px;
+        width: 715px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            display: block;
+            margin-top: 7px;
+            width: 22px;
+            height: 2px;
+            background-color: #4C858B;
+            border-radius: 5px;
+            &:nth-child(1) {
+                margin-top: 0;  
+            }
+        }
+    }
+    &__nav {
+        padding: 0;
+        margin-left: 31px;
+        width: 665px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__item {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 23px;
+            text-transform: uppercase;
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                color: #4C858B;
+            }
+        }
+
+    }
+    &__circle {
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+        border: 1px solid #4C858B;
+        display: flex;
+        flex-direction: column;
+		justify-content: center;
+		align-items: center;
+    }
+    &__phone {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #4C858B;
+        span {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            color: #000;
+        }
+    }
+    &__callMeBack {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        color: #AE2236;
+        text-transform: uppercase;
+    }
+    &__divider {
+        width: 150px;
+        border: 1px dashed #AE2236;
+    }
+    &__control-wrapper {
+        width: 204px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__circle-control {
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+        border: 1px solid #E5E5E5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+    
