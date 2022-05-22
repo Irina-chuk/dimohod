@@ -1,0 +1,33 @@
+.video {
+    margin-top: 108px;
+    &__title {
+        margin-top: 10px;
+        margin-left: 8px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+    }
+    &__text {
+        width: 100%;
+        margin-top: 66px;
+        margin-left: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__wrapper {
+        margin-top: 50px;
+        margin-left: 40px;
+        position: relative;
+        height: 500px;
+        img {
+            position: absolute;
+        }
+        video {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 50px;
+        }
+    }
+}

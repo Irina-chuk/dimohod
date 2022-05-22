@@ -1,1 +1,30 @@
+footer.footer 
+    .container
+        .footer__wrapper 
+            .footer__catalog
+                .footer__title КАТАЛОГ
+                ul.footer__items 
+                    each name in ["Дымоходы", "Дымососы", "Печи для дома", "Печи для бани", "Камины", "Силикат кальция", "Котлы", "Ещё"]
+                        li.footer__item-catalog
+                            a(href="#")= name
+            .footer__information 
+                .footer__title ИНФОРМАЦИЯ
+                ul.footer__items
+                    each name in ["Каталог", "Установка и монтаж", "Отзывы", "Ликвидация товара", "Полезное", "Контакты", "Оплата и доставка"]
+                        li.footer__item-information
+                            a(href="#")= name
+            .footer__time 
+                .footer__title ВРЕМЯ РАБОТЫ
+                .footer__time-wrapper 
+                    img(src="../../assets/images/wall-clock.svg" alt="clock") 
+                    .footer__time-text #[span пн-пт] 9:00 – 20:00   #[span сб-вс] 10:00 – 18:00
+                .footer__time-address 
+                    img(src="../../assets/images/placeholder.svg" alt="geo") 
+                    .footer__time-text г. Санкт - Петербург ,ул. Тамбасова д.7
+                .footer__social 
+                    img(src="../../assets/images/vk_big.svg" alt="vk") 
+                    img(src="../../assets/images/telegram_big.svg" alt="telegram") 
+                    img(src="../../assets/images/instagram_big.svg" alt="instagram") 
+                    img(src="../../assets/images/whatsapp_big.svg" alt="whatsapp") 
+
 
