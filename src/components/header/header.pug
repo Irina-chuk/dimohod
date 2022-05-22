@@ -1,25 +1,29 @@
 header.header
-    .header__wrapper-logo-nav
+    .header__logo
         img(src="../../assets/images/Logo.png" alt="logo")
-        nav
-            .header__circle
-                span
-                span 
-                span
-            ul.header__nav
-                each name in ["Каталог товаров", "доставка и оплата", "Цены", "Контакты"]
-                    li.header__nav__item
-                        a(href="#")= name
-    .header__phone +7 (812) 
-        span 509 21 98
-    .header__callMeBack перезвоните мне
-        .header__divider
-    include ../social/social
+    nav
+        .header__circle
+            span
+            span 
+            span
+        ul.header__nav
+            each name in ["Каталог товаров", "доставка и оплата", "Цены", "Контакты"]
+                li.header__nav__item
+                    a(href="#")= name
+    .header__contacts 
+        .header__phone +7 (812) 
+            span 509 21 98
+        .header__callMeBack перезвоните мне
+            .header__divider
+        include ../social/social
     .header__control-wrapper 
         .header__circle-control
             img(src="../../assets/images/search.svg" alt="search")
         .header__circle-control
             img(src="../../assets/images/heart.svg" alt="heart")
         .header__circle-control
-            img(src="../../assets/images/shopping-cart.svg" alt="shopping")
+            .header__circle-control-img
+                img(src="../../assets/images/shopping-cart.svg" alt="shopping")
+                .header__circle-control-count 10
+
 
